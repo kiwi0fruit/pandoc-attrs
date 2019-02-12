@@ -1,4 +1,4 @@
-<a href='https://travis-ci.org/aaren/pandoc-attributes'> <img src='https://api.travis-ci.org/aaren/pandoc-attributes.png?branch=master'></a>
+<a href='https://travis-ci.org/kiwi0fruit/pandoc-attrs'> <img src='https://api.travis-ci.org/kiwi0fruit/pandoc-attrs.png?branch=master'></a>
 
 This is a simple parser / emitter for pandoc block attributes,
 intended for use with [pandocfilters].
@@ -13,12 +13,12 @@ It can read and write attributes in any of these formats:
 
 Installation:
 
-    pip install pandoc-attributes
+    pip install pandoc-attrs
 
 Usage:
 
 ```python
-from pandocattributes import PandocAttributes
+from pandocattrs import PandocAttributes
 
 attrs = '#id .class1 .class2 key=value'
 attributes = PandocAttributes(attrs, format='markdown')

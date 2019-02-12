@@ -2,7 +2,7 @@ import nose.tools as nt
 
 from collections import OrderedDict
 
-from pandocattributes import PandocAttributes
+from pandocattrs import PandocAttributes
 
 
 attr_markdown = r"""{#identify .class1 .class2 .unnumbered
