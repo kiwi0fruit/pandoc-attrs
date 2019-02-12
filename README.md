@@ -1,3 +1,5 @@
+# pandoc-attrs
+
 <a href='https://travis-ci.org/kiwi0fruit/pandoc-attrs'> <img src='https://api.travis-ci.org/kiwi0fruit/pandoc-attrs.png?branch=master'></a>
 
 This is a simple parser / emitter for pandoc block attributes,
