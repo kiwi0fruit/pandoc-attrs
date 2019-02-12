@@ -2,9 +2,12 @@ from setuptools import setup
 import io
 from os import path as p
 
-with io.open(p.join(p.dirname(p.abspath(__file__)), 'README.md'),
-             encoding='utf-8') as f:
-    long_description = f.read()
+try:
+    with io.open(p.join(p.dirname(p.abspath(__file__)), 'README.md'),
+                 encoding='utf-8') as f:
+        long_description = f.read()
+except Exception:
+    long_description = ''
 
 setup(
     name="pandoc-attrs",
